@@ -1,4 +1,4 @@
-# Transformice Truth or Dare [finnish translation]
+# Transformice Truth or Dare [fn]
 <br>
 
 A finnish version of truth or dare for a few people to use.
