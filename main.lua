@@ -1,4 +1,4 @@
-admins={"Tigrounette", "Melibellule", "Mousetat"}
+admins={"Tigrounette", "Melibellule", "Mousetat", "Eraspace"}
 -- remember to put "," between each name!
 
 
@@ -34,8 +34,8 @@ dance=false
 mapcomplete=false
 
 truth={}--you can follow the format 'truth[number]="question"' 
-truth[1]="Who is your crush in this game?"
-truth[2]="What is your favourite food?"
+truth[1]="Kuka on sinun ihastuksesi tässä pelissä?"
+truth[2]="Mikä on lempiruokasi?"
 truth[3]="Who is you model/favourite person in game?"
 truth[4]="What games do you play besides Transformice?"
 truth[5]="What would you like to be when you grow up?"
@@ -44,7 +44,7 @@ truth[7]="What brand of phone do you have currently?"
 truth[8]="Have you ever farted in front of your friends or teachers in real life?"
 truth[9]="If you could hack transformice, what would you do?"
 truth[10]="What is your favourite fur in Transformice if you have to choose?"
-truth[11]="Why do you like Transformice?"
+truth[11]="Miksi pidät Transformice?"
 truth[12]="What do you dislike/hate most about yourself, whether in personality or physically?"
 truth[13]="What do you love most about yourself, whether in personality or physically?"
 truth[14]="Tell us whether you love yourself more or hate/dislike yourself more, and tell us why."
@@ -102,7 +102,7 @@ dare[25]="I dare you go to cafe and create a topic: 'I LOVE UNDERTALE'"
 dare[26]="I dare you go to /room village1 and say to a random person there, 'OMG I LOVE YOU (insert random person's name) FRIEND ME I ALWAYS WANTED TO MEET YOU OMG!!! *-*'"
 
 function eventNewPlayer(name)
-	ui.addTextArea(1,"<b><p align = 'center'><font size='30'>Type !join to join the game.</font></p></b>",name,50,365,700,40,0x324650,0x212F36,0.8,true)
+	ui.addTextArea(1,"<b><p align = 'center'><font size='30'>Type !liity to join the game.</font></p></b>",name,50,365,700,40,0x324650,0x212F36,0.8,true)
 	ui.addPopup(999,0,"<p align = 'center'><font size='40' face='impact'>Truth or Dare</font></p><font size='20' color='#FF0000'><b>About the game</b></font><font size='15'>\nEvery game, everyone will have the chance to be the Asker. On the first popup as an asker, u can click 'Yes' to randomize a answerer, or 'No' to type a particular person in room. This is similar for almost all other popups, where 'Yes' is for random and 'No' is for typing out yourself. If you are the asker, you can also type '#(number)' to give the question number of the truth/dare in the random list. There are currently <b>"..#truth.."</b> random truths and <b>"..#dare.."</b> random dares, so if you have any feedback feel free to tell me.\n<font color='#00FF00'>Created by Mousetat</font> \nForum Thread: atelier801.com//topic?f=6&t=814350&p=1 \n</font><font face='impact' size='30'>Type !commands to see the list of commands</font>",name,100,50,600,true)
 	p[name]={questioners=false, admin=false, spectator=true, ban=false, randomerino=1, out=false, new=false}
 	local i=0
