@@ -33,47 +33,47 @@ one=false
 dance=false
 mapcomplete=false
 
-truth={}--you can follow the format 'truth[number]="question"' 
+truth={}--you can follow the format 'truth[number]="question"' -- ä ö for easier use since I don't have these keys
 truth[1]="Kuka on sinun ihastuksesi tässä pelissä?"
 truth[2]="Mikä on lempiruokasi?"
-truth[3]="Who is you model/favourite person in game?"
-truth[4]="What games do you play besides Transformice?"
+truth[3]="Kuka on sinun suosikkihenkilösi tässä pelissä?"
+truth[4]="Mitä muita pelejä pelaat"
 truth[5]="Mitä haluaisit olla isona?"
-truth[6]="Have you sucked your thumb before?"
+truth[6]="Oletko imenyt peukkuasi aikasemmin?"
 truth[7]="Mitä tuotemerkin puhelimen teillä on tällä hetkellä?"
 truth[8]="Oletko koskaan farted edessä ystävien tai opettajien tosielämässä?"
 truth[9]="Jos voisit hakata Transformice, mitä tekisit?"
-truth[10]="What is your favourite fur in Transformice if you have to choose?"
+truth[10]="Jos sinun pitäisi vailita, mikä on suoskki turkkisi Transformicessa?"
 truth[11]="Miksi pidät Transformice?"
-truth[12]="What do you dislike/hate most about yourself, whether in personality or physically?"
-truth[13]="What do you love most about yourself, whether in personality or physically?"
-truth[14]="Tell us whether you love yourself more or hate/dislike yourself more, and tell us why."
-truth[15]="Kerro meille, onko rakastat itseäsi enemmän tai vihaa, ja kerro miksi."
-truth[16]="Tell us why you hate the person you currently hate in real life, in personality terms."
-truth[17]="If you had unlimited cheese and fraises, what item would you buy from the shop?"
-truth[18]="Which will you choose, free million of cash or living longer?"
+truth[12]="Mitä vihaat eniten luonteessasi tai ulkonäössäsi"
+truth[13]="Mitä rakastat eniten luonteessasi tai ulkonäössäsi?"
+truth[14]="Kerro meille rakastatko vai vihaatko itseäsi enemmän, ja miksi."
+truth[15]="Miksi pidät nykyisestä ihastuksestasi oikeassa elämässä, persoonallisista ominaisuuksista ja fyysisistä ominaisuuksista?"
+truth[16]="Kerro meille miksi vihaat vihaamaasi henkilöä IRL persoonallisissa ominaisuuksissa."
+truth[17]="Jos sinulla olisi loputon määrä juustoja ja mansikoita, mitä tavaroita ostaisit kaupasta?"
+truth[18]="Kumman valitsisit, miljoona rahaa ilmaiseksi vai pitempään elämisen?"
 truth[19]="Mikä on sinun suosikki lautapeli?"
-truth[20]="What is the longest that you have ever been without taking a shower?"
+truth[20]="Mikä on pisin aikasi ilman että olet käynyt suihkussa?"
 truth[21]="Oletko koskaan syönyt hyönteisen ennen?"
-truth[22]="If you could be any super villain, who would you be?"
-truth[23]="If you could be any superhero, who would you be?"
+truth[22]="Jos voisit olla mikä tahansa superrikollinen, kuka olisit?"
+truth[23]="Jos voisit olla mikä tahansa supersankari, kuka olisit?"
 truth[24]="Jos voisit olla hyönteinen, mikä olisit?"
 truth[25]="Kuka on suosikkisi henkilöstö? (Admin/Moderaattori/Sentinels/Mapcrew/Funcorp)"
 truth[26]="Mikä on vaikutelma minulle? Pidätkö minua?"
-truth[27]="Have you ever cheated on any test?"
-truth[28]="How many boyfriends/girlfriends have you had?"
-truth[29]="If you were a billionaire, what would you spend your time doing?"
-truth[30]="If you could be a boss of a company one day, what would you do?"
-truth[31]="What celebrity are you obsessed with?"
+truth[27]="Oletko koskaan huijannut missään kokeessa?"
+truth[28]="Kuinka monta poikaystävää/tyttöystävää sinulla on ollut?"
+truth[29]="Jos olisit biljonääri, miten käyttäisit aikasi?"
+truth[30]="Jos voisit olla jonkin yrityksen pomo päivän ajan, mitä tekisit?"
+truth[31]="Keneen julkkikseen sinulla on pakkomielle?"
 truth[32]="Mikä on suosikkijoukkueesi / soitin?"
 truth[32]="Mikä on suosikkikappaleesi juuri nyt?"
-truth[33]="If you were on an island with a person and yourself only, who would you want the person to be?(the person must be in this room)"
-truth[34]="If you could marry, kiss, hug, punch and kill someone in this room, who would they be?(if there are less than 5 mice you can repeat names)"
-truth[35]="Would rather be rich but dumb, or poor but clever?"
+truth[33]="Jos olisit saarella yhden ihmisen kanssa, kuka haluaisit henkilön olevan? (Henkilön täytyy olla täällä huoneessa)"
+truth[34]="Jos sinun pitäisi naida, suudella, halata, lyödä ja tappaa joku tässä huoneessa, kuka se olisi? (jos täällä on alle 5 hiirtä voit käyttää nimen useammin)"
+truth[35]="Olisitko mieluummin rikas mutta tyhmä vai köyhä mutta fiksu?"
 truth[36]="Oletko lähemmäksi äitisi tai isäsi?"
 truth[37]="Pidätkö ketään paitsi sielunveljesi? Jos kyllä, kuka?"
 
-dare={} -- you can follow the format 'dare[number]="Dare"' 
+dare={} -- you can follow the format 'dare[number]="Dare"'
 dare[1]="I dare you go into EN/EN2 room 2 and spam this message 10 times: CHARLOTTE CHARLOTTE CHARLOTTE CHARLOTTE CHARLOTTE CHARLOTTE CHARLOTTE CHARLOTTE"
 dare[2]="I dare you whisper a moderator a swear word."
 dare[3]="I dare you tell your crush, or anybody in this room that you love him/her right now"
@@ -89,16 +89,16 @@ dare[12]="I dare you to say who would be your most likely crush among the player
 dare[13]="I dare you to give all your selfies to me right now, if you have any balls to do it via trade"
 dare[14]="I dare you complete this map without cheating!"
 dare[15]="I dare you type 'I LOVE YOU (username)' 30 times to a username in room/tribe in room chat or in tribe chat."
-dare[17]="I dare you marry your closest friend, if u are not already married"
-dare[18]="I dare you give me, the questioner, every snowball you have in your inventory, if you have any."
-dare[19]="I dare you whisper a moderator, 'Ban me!'"
-dare[20]="I dare you kiss and hug someone in the room of the same gender"
-dare[21]="I dare you spam 'I AM A DUMB COWARD!' 10 times in this room's chat"
-dare[22]="I dare you ask your crush for a date."
-dare[23]="I dare you spam to a moderator, 'HEY <moderator's name>, I'M DAD'"
-dare[24]="I dare you go to a room in EN/EN2 and type 'I WANT WAFFLES' 5 times."
-dare[25]="I dare you go to cafe and create a topic: 'I LOVE UNDERTALE'"
-dare[26]="I dare you go to /room village1 and say to a random person there, 'OMG I LOVE YOU (insert random person's name) FRIEND ME I ALWAYS WANTED TO MEET YOU OMG!!! *-*'"
+dare[16]="I dare you marry your closest friend, if u are not already married"
+dare[17]="I dare you give me, the questioner, every snowball you have in your inventory, if you have any."
+dare[18]="I dare you whisper a moderator, 'Ban me!'"
+dare[19]="I dare you kiss and hug someone in the room of the same gender"
+dare[20]="I dare you spam 'I AM A DUMB COWARD!' 10 times in this room's chat"
+dare[21]="I dare you ask your crush for a date."
+dare[22]="I dare you spam to a moderator, 'HEY <moderator's name>, I'M DAD'"
+dare[23]="I dare you go to a room in EN/EN2 and type 'I WANT WAFFLES' 5 times."
+dare[24]="I dare you go to cafe and create a topic: 'I LOVE UNDERTALE'"
+dare[25]="I dare you go to /room village1 and say to a random person there, 'OMG I LOVE YOU (insert random person's name) FRIEND ME I ALWAYS WANTED TO MEET YOU OMG!!! *-*'"
 
 function eventNewPlayer(name)
 	ui.addTextArea(1,"<b><p align = 'center'><font size='30'>Kirjoita !join liittyäksesi peliin</font></p></b>",name,50,365,700,40,0x324650,0x212F36,0.8,true)
@@ -153,7 +153,7 @@ function eventNewGame()
 function eventChatCommand(name,command)
 	local IDList = {}
 	if command=="clear" then
-		for id, object in pairs(tfm.get.room.objectList) do 
+		for id, object in pairs(tfm.get.room.objectList) do
 			table.insert(IDList, id)
 		end
 		for i, id in pairs(IDList) do
@@ -220,7 +220,7 @@ function eventChatCommand(name,command)
 				skip=true
 			end
 			for i=1,#players do
-				if players[i]==name then 
+				if players[i]==name then
 					table.remove(players,i)
 				end
 			end
@@ -238,7 +238,7 @@ function eventChatCommand(name,command)
 						ui.updateTextArea(1, "<p align='center'><b><font size='30'>"..k.." is now a spectator :(</font></b></p>", nil)
 						ui.updateTextArea(1,"<b><p align = 'center'><font size='30'>Type !join to join the game.</font></p></b>",k)
 						for i=1,#players do
-							if players[i]==k then 
+							if players[i]==k then
 								table.remove(players,i)
 							end
 						end
@@ -257,7 +257,7 @@ function eventChatCommand(name,command)
 	elseif string.sub(command,0,3)=="ban" and p[name].admin==true then
 		local c=0
 		local reason=""
-		if string.find(command," ",5)==nil then	
+		if string.find(command," ",5)==nil then
 			message=string.sub(command,5)
 		else
 			c=string.find(command," ",5)
@@ -273,7 +273,7 @@ function eventChatCommand(name,command)
 				p[message].ban=true
 				tfm.exec.killPlayer(k)
 				for i=1,#players do
-					if players[i]==k then 
+					if players[i]==k then
 						table.remove(players,i)
 					end
 				end
@@ -333,7 +333,7 @@ function eventLoop(time,remaining)
 		end
 	end
 	local IDList={}
-	for id, object in pairs(tfm.get.room.objectList) do 
+	for id, object in pairs(tfm.get.room.objectList) do
 		table.insert(IDList, id)
 	end
 	for i, id in pairs(IDList) do
@@ -422,7 +422,7 @@ function eventLoop(time,remaining)
 			p[questioner].questioners=true
 			ui.updateTextArea(1, "<b><font size='15'>"..questioner.." is now the asker! Waiting to pick an answerer...</font></b>", nil)
 			ui.addPopup(1,1,"Do you want a random Answerer? If <b>No</b>, you will have to type in your Answerer's username",questioner,250,50,300,true)
-		else 
+		else
 			ui.updateTextArea(1, "<p align='center'><b><font size='30'>Randomizing...</font></b></p>", nil)
 			tfm.exec.movePlayer(questioner,400,320,false,0,0,false)
 			questioner=""
@@ -484,29 +484,29 @@ function eventPopupAnswer(id, name, answer)
 		if found==false then
 			ui.addPopup(2,2,"There is no such answerer in the room. Type out the exact username of your answerer.",questioner,250,50,300,true)
 		end
-	elseif id==3 and name==answerer then	
+	elseif id==3 and name==answerer then
 		if answer=="yes" then
-			ui.updateTextArea(1, "<b><font size='15'>"..answerer.." has picked Truth! Waiting for question from "..questioner.."...</font></b>", nil)	
+			ui.updateTextArea(1, "<b><font size='15'>"..answerer.." has picked Truth! Waiting for question from "..questioner.."...</font></b>", nil)
 			ui.addPopup(4,1,"Do you want a random Truth question? If <b>No</b>, you will have to submit a question.",questioner,250,50,300,true)
 		elseif answer=="no" then
 			ui.updateTextArea(1, "<b><font size='15'>"..answerer.." has picked Dare! Waiting for a dare from "..questioner.."...</font></b>", nil)
 			ui.addPopup(5,1,"Do you want a random Dare? If <b>No</b>, you will have to submit a Dare.",questioner,250,50,300,true)
-				
+
 		end
 	elseif id==4 and name==questioner then
 		if answer=="yes" then
 			question=truth[math.random(1,#truth)]
-			ui.updateTextArea(1, "<b><font size='15'>"..questioner.." has randomed a Truth question! Waiting for "..answerer.." to respond...</font></b>", nil)	
+			ui.updateTextArea(1, "<b><font size='15'>"..questioner.." has randomed a Truth question! Waiting for "..answerer.." to respond...</font></b>", nil)
 			ui.addTextArea(2,"<b><font size='20'>Truth: "..question.."</font></b>",nil,165,20,470,120,0x324650,0x212F36,0.8,true)
 			ui.addPopup(8,2,"<b>Type your Truth answer below</b>",answerer,250,175,300,true)
-			
+
 		elseif answer=="no" then
 			ui.addPopup(6,2,"Type your Truth question below, or type #(number) for the question number from the random list.",questioner,250,50,300,true)
 		end
 	elseif id==5 and name==questioner then
 		if answer=="yes" then
 			question=dare[math.random(1,#dare)]
-			ui.updateTextArea(1, "<b><font size='15'>"..questioner.." has randomed a Dare question! Waiting for "..answerer.." to respond...</font></b>", nil)	
+			ui.updateTextArea(1, "<b><font size='15'>"..questioner.." has randomed a Dare question! Waiting for "..answerer.." to respond...</font></b>", nil)
 			ui.addTextArea(2,"<b><font size='20'>Dare: "..question.."</font></b>",nil,165,20,470,120,0x324650,0x212F36,0.8,true)
 			ui.addPopup(9,1,"<b><font size='15'>Do what "..questioner.."dares you to do! If you click 'yes' you will promise that you will do your dare!</font><b>",answerer,250,175,300,true)
 		elseif answer=="no" then
@@ -519,14 +519,14 @@ function eventPopupAnswer(id, name, answer)
 		ui.addPopup(6,2,"You have to type something as your Truth question.",questioner,250,50,300,true)
 		elseif string.sub(answer,0,1)=="#" and tonumber(string.sub(answer,2,3))<=#truth then
 		question=truth[tonumber(string.sub(answer,2,3))]
-		ui.updateTextArea(1, "<b><font size='15'>"..questioner.." has typed a Truth question! Waiting for "..answerer.." to respond...</font></b>", nil)	
+		ui.updateTextArea(1, "<b><font size='15'>"..questioner.." has typed a Truth question! Waiting for "..answerer.." to respond...</font></b>", nil)
 		ui.addTextArea(2,"<b><font size='20'>Truth: "..question.."</font></b>",nil,165,20,470,120,0x324650,0x212F36,0.8,true)
 		ui.addPopup(8,2,"Type your Truth answer below",answerer,250,175,300,true)
 		elseif string.sub(answer,0,1)=="#" and tonumber(string.sub(answer,2,3))>#truth then
 		ui.addPopup(6,2,"You have to type a Truth question number less than or equal to "..tostring(#truth),questioner,250,50,300,true)
 		else
 		question=answer
-		ui.updateTextArea(1, "<b><font size='15'>"..questioner.." has typed a Truth question! Waiting for "..answerer.." to respond...</font></b>", nil)	
+		ui.updateTextArea(1, "<b><font size='15'>"..questioner.." has typed a Truth question! Waiting for "..answerer.." to respond...</font></b>", nil)
 		ui.addTextArea(2,"<b><font size='20'>Truth: "..question.."</font></b>",nil,165,20,470,120,0x324650,0x212F36,0.8,true)
 		ui.addPopup(8,2,"Type your Truth answer below",answerer,250,175,300,true)
 		end
@@ -540,14 +540,14 @@ function eventPopupAnswer(id, name, answer)
 			mapcomplete=true
 			end
 			question=dare[tonumber(string.sub(answer,2,3))]
-			ui.updateTextArea(1, "<b><font size='15'>"..questioner.." has typed a Dare question! Waiting for "..answerer.." to respond...</font></b>", nil)	
+			ui.updateTextArea(1, "<b><font size='15'>"..questioner.." has typed a Dare question! Waiting for "..answerer.." to respond...</font></b>", nil)
 			ui.addTextArea(2,"<b><font size='15'>Dare: "..question.."</font></b>",nil,165,20,470,120,0x324650,0x212F36,0.8,true)
 			ui.addPopup(9,1,"<b><font size='15'>Do what "..questioner.."dares you to do! If you click 'yes' you will promise that you will do your dare!</font><b>",answerer,250,175,300,true)
 		elseif string.sub(answer,0,1)=="#" and tonumber(string.sub(answer,2,3))>#dare then
 		ui.addPopup(7,2,"You have to type a Dare number less than or equal to "..tostring(#dare),questioner,250,50,300,true)
 		else
 			question=answer
-			ui.updateTextArea(1, "<b><font size='15'>"..questioner.." has typed a Dare question! Waiting for "..answerer.." to respond...</font></b>", nil)	
+			ui.updateTextArea(1, "<b><font size='15'>"..questioner.." has typed a Dare question! Waiting for "..answerer.." to respond...</font></b>", nil)
 			ui.addTextArea(2,"<b><font size='15'>Dare: "..question.."</font></b>",nil,165,20,470,120,0x324650,0x212F36,0.8,true)
 			ui.addPopup(9,1,"<b><font size='15'>Do what "..questioner.."dares you to do! If you click 'yes' you will promise that you will do your dare!</font><b>",answerer,250,175,300,true)
 		end
@@ -559,23 +559,23 @@ function eventPopupAnswer(id, name, answer)
 		ui.addPopup(8,2,"You have to type something as your Truth Answer",answerer,250,175,300,true)
 		else
 		ui.addTextArea(3,"<b><font size='20'>Answer: "..ans.."</font></b>",nil,165,140,470,120,0x324650,0x212F36,0.8,true)
-		ui.updateTextArea(1, "<b><font size='15'>"..answerer.." has answered the question! Waiting for "..questioner.." to rate the answer</font></b>", nil)	
+		ui.updateTextArea(1, "<b><font size='15'>"..answerer.." has answered the question! Waiting for "..questioner.." to rate the answer</font></b>", nil)
 		ui.addPopup(10,1,"<b><font size='15'>Are you satisfied with the answer?",questioner,250,50,300,true)
 		end
 	elseif id==9 and name==answerer then
 		if answer=="yes" then
 			ui.addTextArea(3,"<b><font size='20'>I, "..answerer..", accepts the challenge and promises to do the dare.</font></b>",nil,165,140,470,120,0x324650,0x212F36,0.8,true)
 			if mapcomplete==true then
-			ui.updateTextArea(1, "<b><font size='15'>"..answerer.." is a warrior! He/she will have to complete the map before entering the game. Starting new game...</font></b>", nil)	
+			ui.updateTextArea(1, "<b><font size='15'>"..answerer.." is a warrior! He/she will have to complete the map before entering the game. Starting new game...</font></b>", nil)
 			p[answerer].out=true
 			mapcomplete=false
 			for i=1,#players do
-				if players[i]==answerer then 
+				if players[i]==answerer then
 					table.remove(players,i)
 				end
 			end
 			else
-			ui.updateTextArea(1, "<b><font size='15'>"..answerer.." is a warrior! Starting new game...</font></b>", nil)	
+			ui.updateTextArea(1, "<b><font size='15'>"..answerer.." is a warrior! Starting new game...</font></b>", nil)
 			end
 			timestamp=os.time()
 			answerer=""
@@ -585,10 +585,10 @@ function eventPopupAnswer(id, name, answer)
 			tfm.exec.movePlayer(name,400,320,false,0,0,false)
 			p[name].new=false
 			print("false")
-			end			
+			end
 		elseif answer=="no" then
 			mapcomplete=false
-			ui.updateTextArea(1, "<b><font size='15'>"..answerer.." is a coward! Starting new game...</font></b>", nil)	
+			ui.updateTextArea(1, "<b><font size='15'>"..answerer.." is a coward! Starting new game...</font></b>", nil)
 			ui.addTextArea(3,"<b><font size='20'>I, "..answerer..", am a coward so I don't dare to do what you dared me to do.</font></b>",nil,165,140,470,120,0x324650,0x212F36,0.8,true)
 			timestamp=os.time()
 			answerer=""
@@ -598,7 +598,7 @@ function eventPopupAnswer(id, name, answer)
 			tfm.exec.movePlayer(name,400,320,false,0,0,false)
 			p[name].new=false
 			print("false")
-			end			
+			end
 		end
 	elseif id==10 and name==questioner then
 		if answer=="yes" then
@@ -617,7 +617,7 @@ function eventPopupAnswer(id, name, answer)
 			timestamp=os.time()
 			answerer=""
 			questioner=""
-			start=true			
+			start=true
 			for name,player in pairs(tfm.get.room.playerList) do
 			tfm.exec.movePlayer(name,400,320,false,0,0,false)
 			p[name].new=false
@@ -634,7 +634,7 @@ function eventPlayerLeft(name)
 		skip=true
 	end
 	for i=1,#players do
-		if players[i]==name then 
+		if players[i]==name then
 		table.remove(players,i)
 		end
 	end
