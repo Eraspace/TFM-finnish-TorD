@@ -1,5 +1,5 @@
-# Transformice Truth or Dare [fn]
-<br>
+Transformice Truth or Dare [fn]
+===============================
 
 A finnish version of truth or dare for a few people to use.
 
@@ -16,3 +16,5 @@ Thanks alot to:
 - __Ronja__ [Vilttitossu]
 - the whole __Terapiaporukka__ group
 
+### Play testers
+~~None so far~~
