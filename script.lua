@@ -1,5 +1,5 @@
 admins={"Tigrounette", "Melibellule", "Mousetat", "Eraspace"}
--- remember to put "," between each name!
+-- Muista laitta "," jokaisen nimen väliin!
 
 
 tfm.exec.disableAutoNewGame(true)
@@ -8,7 +8,7 @@ tfm.exec.disableAutoShaman(true)
 tfm.exec.disableAutoScore(true)
 tfm.exec.newGame("@6411544")
 
-players={} -- respawn place is 400,320
+players={} -- respawn paikka on 400,320
 p={}
 timestamp=os.time()
 numplayers=0
@@ -33,7 +33,7 @@ one=false
 dance=false
 mapcomplete=false
 
-truth={}--you can follow the format 'truth[number]="question"' -- ä ö for easier use since I don't have these keys
+truth={}--voit seurata formattia 'truth[number]="kysymys"'
 truth[1]="Kuka on sinun ihastuksesi tässä pelissä?"
 truth[2]="Mikä on lempiruokasi?"
 truth[3]="Kuka on sinun suosikkihenkilösi tässä pelissä?"
