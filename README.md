@@ -1,5 +1,6 @@
 Transformice Truth or Dare [fn]
 ===============================
+**Note:** this is still a W.I.P
 
 A finnish version of truth or dare for a few people to use.
 
