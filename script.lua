@@ -33,7 +33,7 @@ one=false
 dance=false
 mapcomplete=false
 
-truth={}--voit seurata formattia 'truth[number]="kysymys"'
+truth={}--voit seurata formattia 'truth[numero]="kysymys"'
 truth[1]="Kuka on sinun ihastuksesi tässä pelissä?"
 truth[2]="Mikä on lempiruokasi?"
 truth[3]="Kuka on sinun suosikkihenkilösi tässä pelissä?"
