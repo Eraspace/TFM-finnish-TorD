@@ -1,24 +1,45 @@
-Need translations for these:
+## Need translations for these:
 
 "Who is you model/favourite person in game?"
+
 "What games do you play besides Transformice?"
+
 "Have you sucked your thumb before?"
+
 "What is your favourite fur in Transformice if you have to choose?"
+
 "What do you dislike/hate most about yourself, whether in personality or physically?"
+
 "What do you love most about yourself, whether in personality or physically?"
+
 "Tell us whether you love yourself more or hate/dislike yourself more, and tell us why."
+
 "Why do you like your current crush in real life, in personality terms AND physical terms?" 
+
 "Tell us why you hate the person you currently hate in real life, in personality terms."
+
 "If you had unlimited cheese and fraises, what item would you buy from the shop?"
+
 "Which will you choose, free million of cash or living longer?"
+
 "What is the longest that you have ever been without taking a shower?"
+
 "If you could be any super villain, who would you be?"
+
 "If you could be any superhero, who would you be?"
+
 "Have you ever cheated on any test?"
+
 "How many boyfriends/girlfriends have you had?"
+
 "If you were a billionaire, what would you spend your time doing?"
+
 "If you could be a boss of a company one day, what would you do?"
+
 "What celebrity are you obsessed with?"
+
 "If you were on an island with a person and yourself only, who would you want the person to be?(the person must be in this room)"
+
 "If you could marry, kiss, hug, punch and kill someone in this room, who would they be?(if there are less than 5 mice you can repeat names)"
+
 "Would rather be rich but dumb, or poor but clever?"
