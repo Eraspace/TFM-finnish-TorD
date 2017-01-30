@@ -73,7 +73,7 @@ truth[35]="Olisitko mieluummin rikas mutta tyhmä vai köyhä mutta fiksu?"
 truth[36]="Oletko lähemmäksi äitisi tai isäsi?"
 truth[37]="Pidätkö ketään paitsi sielunveljesi? Jos kyllä, kuka?"
 
-dare={} -- you can follow the format 'dare[number]="Dare"'
+dare={}--voit seurata formattia 'dare[numero]="tehtävä"'
 dare[1]="I dare you go into EN/EN2 room 2 and spam this message 10 times: CHARLOTTE CHARLOTTE CHARLOTTE CHARLOTTE CHARLOTTE CHARLOTTE CHARLOTTE CHARLOTTE"
 dare[2]="I dare you whisper a moderator a swear word."
 dare[3]="I dare you tell your crush, or anybody in this room that you love him/her right now"
@@ -82,11 +82,11 @@ dare[5]="I dare you report a moderator for hacking"
 dare[6]="I dare you create an account similar to that of an online moderator and use that account to whisper to the online moderator: Hallo buddy!"
 dare[7]="I dare you tell your real life name to everybody in chat"
 dare[8]="I dare you take a picture of your real life face and send it to everyone to see."
-dare[9]="I dare you go into any #utility room with at least 3 people in it and crash the room."
-dare[10]="I dare you give me, the questioner, every ball you have in your inventory, if you have any."
-dare[11]="I dare you to disconnect and reconnect right now."
-dare[12]="I dare you to say who would be your most likely crush among the players in this room we are in."
-dare[13]="I dare you to give all your selfies to me right now, if you have any balls to do it via trade"
+dare[9]="Haastan sinut menemään mihin tahansa #utility huoneeseen missä on vähintään kolme ihmistä ja rikkomaan sen."
+dare[10]="Haastan sinut antaamaan minulle, kyselijälle kaikki pallosi mitä sinulla on tavaraluettelossasi, jos sinulla siis on."
+dare[11]="Haastan sinut kirjautumaan ulos-ja sisään uudelleen, nyt heti."
+dare[12]="Haastan sinut sanomaan kuka olisi sinun todennäköisin ihastuksesi niistä pelaajista, joiden kanssa olet samassa huoneessa."
+dare[13]="Haastan sinut antamaan minulle kaikki selfiesi juuri nyt, jos sinulla on munaa tehdä se vaihdon kanssa"
 dare[14]="I dare you complete this map without cheating!"
 dare[15]="I dare you type 'I LOVE YOU (username)' 30 times to a username in room/tribe in room chat or in tribe chat."
 dare[16]="I dare you marry your closest friend, if u are not already married"
@@ -102,7 +102,7 @@ dare[25]="I dare you go to /room village1 and say to a random person there, 'OMG
 
 function eventNewPlayer(name)
 	ui.addTextArea(1,"<b><p align = 'center'><font size='30'>Kirjoita !join liittyäksesi peliin</font></p></b>",name,50,365,700,40,0x324650,0x212F36,0.8,true)
-	ui.addPopup(999,0,"<p align = 'center'><font size='40' face='impact'>Totuus vai tehtävä</font></p><font size='20' color='#FF0000'><b>About the game</b></font><font size='15'>\nEvery game, someone will have the chance to be the Asker. On the first popup as an asker, you can click 'Yes' to randomize a answerer, or 'No' to type a particular person in room. This is similar for almost all other popups, where 'Yes' is for random and 'No' is for typing out yourself. If you are the asker, you can also type '#(number)' to give the question number of the truth/dare in the random list. There are currently <b>"..#truth.."</b> random truths and <b>"..#dare.."</b> random dares, so if you have any feedback feel free to tell me.\n<font color='#00FF00'>Created by Mousetat</font> \nForum Thread: atelier801.com//topic?f=6&t=814350&p=1 \n</font><font face='impact' size='30'>Type !commands to see the list of commands</font>",name,100,50,600,true)
+	ui.addPopup(999,0,"<p align = 'center'><font size='40' face='impact'>Totuus vai tehtävä</font></p><font size='20' color='#FF0000'><b>Pelistä</b></font><font size='15'>\nEvery game, someone will have the chance to be the Asker. On the first popup as an asker, you can click 'Yes' to randomize a answerer, or 'No' to type a particular person in room. This is similar for almost all other popups, where 'Yes' is for random and 'No' is for typing out yourself. If you are the asker, you can also type '#(number)' to give the question number of the truth/dare in the random list. There are currently <b>"..#truth.."</b> random truths and <b>"..#dare.."</b> random dares, so if you have any feedback feel free to tell me.\n<font color='#00FF00'>Created by Mousetat</font> \nForum Thread: atelier801.com//topic?f=6&t=814350&p=1 \n</font><font face='impact' size='30'>Type !commands to see the list of commands</font>",name,100,50,600,true)
 	p[name]={questioners=false, admin=false, spectator=true, ban=false, randomerino=1, out=false, new=false}
 	local i=0
 	while i<=#admins do
