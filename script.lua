@@ -41,7 +41,7 @@ truth[4]="Mitä muita pelejä pelaat"
 truth[5]="Mitä haluaisit olla isona?"
 truth[6]="Oletko imenyt peukkuasi aikasemmin?"
 truth[7]="Mitä tuotemerkin puhelimen teillä on tällä hetkellä?"
-truth[8]="Oletko koskaan farted edessä ystävien tai opettajien tosielämässä?"
+truth[8]="Oletko koskaan farted edessä ystävien tai opettajien tosielämäassä?"
 truth[9]="Jos voisit hakata Transformice, mitä tekisit?"
 truth[10]="Jos sinun pitäisi vailita, mikä on suoskki turkkisi Transformicessa?"
 truth[11]="Miksi pidät Transformice?"
@@ -74,14 +74,14 @@ truth[36]="Oletko lähemmäksi äitisi tai isäsi?"
 truth[37]="Pidätkö ketään paitsi sielunveljesi? Jos kyllä, kuka?"
 
 dare={}--voit seurata formattia 'dare[numero]="tehtävä"'
-dare[1]="I dare you go into EN/EN2 room 2 and spam this message 10 times: CHARLOTTE CHARLOTTE CHARLOTTE CHARLOTTE CHARLOTTE CHARLOTTE CHARLOTTE CHARLOTTE"
-dare[2]="I dare you whisper a moderator a swear word."
-dare[3]="I dare you tell your crush, or anybody in this room that you love him/her right now"
-dare[4]="I dare you go into EN/EN2 room 1 and spam this message 10 times: I'M FLOODING REPORT ME!"
-dare[5]="I dare you report a moderator for hacking"
-dare[6]="I dare you create an account similar to that of an online moderator and use that account to whisper to the online moderator: Hallo buddy!"
-dare[7]="I dare you tell your real life name to everybody in chat"
-dare[8]="I dare you take a picture of your real life face and send it to everyone to see."
+dare[1]="Haastan sinut menemään EN/E2/FN huoneeseen 2 ja spämmäämään tätä viestiä 10 kertaa: CHARLOTTE CHARLOTTE CHARLOTTE CHARLOTTE CHARLOTTE CHARLOTTE CHARLOTTE CHARLOTTE."
+dare[2]="Haastan sinut kuiskaamaan moderaattorille kirosanan."
+dare[3]="Haastan sinut kertomaan ihastuksellesi tai kenelle tahansa tässä huoneessa että rakasat häntä juurinyt."
+dare[4]="Haastan sinut menemään EN/E2/FN huoneeseen 2 ja spämmäämään tätä viestiä 10 kertaa: I'M FLOODING REPORT ME!."
+dare[5]="Haastan sinut reporttaamaan moderaattorin hacksaamisesta."
+dare[6]="Haastan sinut luomaan accountin, joka on samanlainen kuin paikalla olevan moderaattorin ja kiuskaamaan modderaattoille: Hallo buddy!"
+dare[7]="Haastan sinut kertomaan sinun oikean nimesi jokaiselle chatissa."
+dare[8]="Haastan sinut ottamaan kuvan itsestäsi IRL ja lähettämään sen jokaisen nähtäväksi."
 dare[9]="Haastan sinut menemään mihin tahansa #utility huoneeseen missä on vähintään kolme ihmistä ja rikkomaan sen."
 dare[10]="Haastan sinut antaamaan minulle, kyselijälle kaikki pallosi mitä sinulla on tavaraluettelossasi, jos sinulla siis on."
 dare[11]="Haastan sinut kirjautumaan ulos-ja sisään uudelleen, nyt heti."
@@ -102,7 +102,7 @@ dare[25]="I dare you go to /room village1 and say to a random person there, 'OMG
 
 function eventNewPlayer(name)
 	ui.addTextArea(1,"<b><p align = 'center'><font size='30'>Kirjoita !join liittyäksesi peliin</font></p></b>",name,50,365,700,40,0x324650,0x212F36,0.8,true)
-	ui.addPopup(999,0,"<p align = 'center'><font size='40' face='impact'>Totuus vai tehtävä</font></p><font size='20' color='#FF0000'><b>Pelistä</b></font><font size='15'>\nEvery game, someone will have the chance to be the Asker. On the first popup as an asker, you can click 'Yes' to randomize a answerer, or 'No' to type a particular person in room. This is similar for almost all other popups, where 'Yes' is for random and 'No' is for typing out yourself. If you are the asker, you can also type '#(number)' to give the question number of the truth/dare in the random list. There are currently <b>"..#truth.."</b> random truths and <b>"..#dare.."</b> random dares, so if you have any feedback feel free to tell me.\n<font color='#00FF00'>Created by Mousetat</font> \nForum Thread: atelier801.com//topic?f=6&t=814350&p=1 \n</font><font face='impact' size='30'>Type !commands to see the list of commands</font>",name,100,50,600,true)
+	ui.addPopup(999,0,"<p align = 'center'><font size='40' face='impact'>Totuus vai tehtävä</font></p><font size='20' color='#FF0000'><b>Pelistä</b></font><font size='15'>\nEvery game, someone will have the chance to be the Asker. On the first popup as an asker, you can click 'Yes' to randomize a answerer, or 'No' to type a particular person in room. This is similar for almost all other popups, where 'Yes' is for random and 'No' is for typing out yourself. If you are the asker, you can also type '#(number)' to give the question number of the truth/dare in the random list. There are currently <b>"..#truth.."</b> random truths and <b>"..#dare.."</b> random dares, so if you have any feedback feel free to tell me.\n<font color='#00FF00'>Created by Mousetat</font> \nForum Thread: atelier801.com//topic?f=6&t=814350&p=1 \n <font color='#00FF00'>Translated script by Eraspace</font></font><font face='impact' size='30'>Type !commands to see the list of commands</font>",name,100,50,600,true)
 	p[name]={questioners=false, admin=false, spectator=true, ban=false, randomerino=1, out=false, new=false}
 	local i=0
 	while i<=#admins do
@@ -114,8 +114,8 @@ function eventNewPlayer(name)
 end
 
 function eventNewGame()
-	ui.addTextArea(1,"<b><p align = 'center'><font size='30'>Welcome to Truth or Dare Game!</font></p></b>",nil,50,365,700,40,0x324650,0x212F36,0.8,true)
-	ui.addPopup(999,0,"<p align = 'center'><font size='40' face='impact'>Truth or Dare</font></p><font size='20' color='#FF0000'><b>About the game</b></font><font size='15'>\nEvery game, everyone will have the chance to be the Asker. On the first popup as an asker, u can click 'Yes' to randomize a answerer, or 'No' to type a particular person in room. This is similar for almost all other popups, where 'Yes' is for random and 'No' is for typing out yourself. If you are the asker, you can also type '#(number)' to give the question number of the truth/dare in the random list. There are currently <b>"..#truth.."</b> random truths and <b>"..#dare.."</b> random dares, so if you have any feedback feel free to tell me.\n<font color='#00FF00'>Created by Mousetat</font> \nForum Thread: atelier801.com//topic?f=6&t=814350&p=1 \n</font><font face='impact' size='30'>Type !commands to see the list of commands</font>",nil,100,50,600,true)
+	ui.addTextArea(1,"<b><p align = 'center'><font size='30'>Welcome to Totuus vai tehtävä!</font></p></b>",nil,50,365,700,40,0x324650,0x212F36,0.8,true)
+	ui.addPopup(999,0,"<p align = 'center'><font size='40' face='impact'>Totuus vai tehtävä</font></p><font size='20' color='#FF0000'><b>About the game</b></font><font size='15'>\nEvery game, everyone will have the chance to be the Asker. On the first popup as an asker, u can click 'Yes' to randomize a answerer, or 'No' to type a particular person in room. This is similar for almost all other popups, where 'Yes' is for random and 'No' is for typing out yourself. If you are the asker, you can also type '#(number)' to give the question number of the truth/dare in the random list. There are currently <b>"..#truth.."</b> random truths and <b>"..#dare.."</b> random dares, so if you have any feedback feel free to tell me.\n<font color='#00FF00'>Created by Mousetat</font> \nForum Thread: atelier801.com//topic?f=6&t=814350&p=1 \n</font><font face='impact' size='30'>Type !commands to see the list of commands</font>",nil,100,50,600,true)
 	answerer=""
 	questioner=""
 	begin=false
@@ -247,7 +247,7 @@ function eventChatCommand(name,command)
 			end
 		end
 	elseif command=="help" then
-		ui.addPopup(999,0,"<p align = 'center'><font size='40' face='impact'>Truth or Dare</font></p><font size='20' color='#FF0000'><b>About the game</b></font><font size='15'>\nEvery game, everyone will have the chance to be the Asker. On the first popup as an asker, u can click 'Yes' to randomize a answerer, or 'No' to type a particular person in room. This is similar for almost all other popups, where 'Yes' is for random and 'No' is for typing out yourself. If you are the asker, you can also type '#(number)' to give the question number of the truth/dare in the random list. There are currently <b>"..#truth.."</b> random truths and <b>"..#dare.."</b> random dares, so if you have any feedback feel free to tell me.\n<font color='#00FF00'>Created by Mousetat</font> \nForum Thread: atelier801.com//topic?f=6&t=814350&p=1 \n</font><font face='impact' size='30'>Type !commands to see the list of commands</font>",name,100,50,600,true)
+		ui.addPopup(999,0,"<p align = 'center'><font size='40' face='impact'>Totuus vai tehtävä</font></p><font size='20' color='#FF0000'><b>About the game</b></font><font size='15'>\nEvery game, everyone will have the chance to be the Asker. On the first popup as an asker, u can click 'Yes' to randomize a answerer, or 'No' to type a particular person in room. This is similar for almost all other popups, where 'Yes' is for random and 'No' is for typing out yourself. If you are the asker, you can also type '#(number)' to give the question number of the truth/dare in the random list. There are currently <b>"..#truth.."</b> random truths and <b>"..#dare.."</b> random dares, so if you have any feedback feel free to tell me.\n<font color='#00FF00'>Created by Mousetat</font> \nForum Thread: atelier801.com//topic?f=6&t=814350&p=1 \n</font><font face='impact' size='30'>Type !commands to see the list of commands</font>",name,100,50,600,true)
 	elseif command=="commands" then
 	if p[name].admin==true then
 	ui.addPopup(999,0,"<b><font size='20' color='#FFFF00'>COMMANDS</font>\n!join to join the game if you are spectating or you just came into the room.\n!watch to be a spectator and get ignored in the game.\n!mods to see the current moderators in the room.\n!clear to clear all shaman objects.\n!new to get a new answerer(only new ONCE)(asker only)\n!help to see the information about game\n<font size='20' color='#EB1D51'>ADMIN COMMANDS</font>\n!watch (username) to make the username a spectator.\n!s to become shaman\n!admin (username) to admin a person\n!dance/!danceoff to toggle dancing\n!t (message) to speak to all\n!restart to restart game if bugged\n!skip to skip a person's turn\n!ban (username) (reason) to ban a person(highly not advised)</b>",name,100,50,600,true)
@@ -411,7 +411,7 @@ function eventLoop(time,remaining)
 			answerer=""
 		else
 			choose=false
-			ui.updateTextArea(1, "<b><font size='15'>"..answerer.." is now the answerer! Waiting to pick truth or dare...</font></b>", nil)
+			ui.updateTextArea(1, "<b><font size='15'>"..answerer.." is now the answerer! Waiting to pick totuus vai tehtävä...</font></b>", nil)
 			ui.addPopup(3,1,"You are the answerer! Do you want Truth? If No, you will choose Dare!",answerer,250,50,300,true)
 		end
 	elseif choosey==true and one==false then
@@ -474,7 +474,7 @@ function eventPopupAnswer(id, name, answer)
 			answerer=""
 			found=false
 			else
-			ui.updateTextArea(1, "<b><font size='15'>"..answerer.." is now the answerer! Waiting to pick Truth or Dare...</font></b>", nil)
+			ui.updateTextArea(1, "<b><font size='15'>"..answerer.." is now the answerer! Waiting to pick totuus vai tehtävä...</font></b>", nil)
 			ui.addPopup(3,1,"You are the answerer! Do you want Truth? If <b>No</b>, you will choose Dare!",answerer,250,50,300,true)
 			found=true
 			end

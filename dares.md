@@ -1,20 +1,20 @@
 ## These dares need translation:
 
-"I dare you go into EN/EN2 room 2 and spam this message 10 times: CHARLOTTE CHARLOTTE CHARLOTTE CHARLOTTE CHARLOTTE CHARLOTTE CHARLOTTE CHARLOTTE"
+~~"I dare you go into EN/EN2 room 2 and spam this message 10 times: CHARLOTTE CHARLOTTE CHARLOTTE CHARLOTTE CHARLOTTE CHARLOTTE CHARLOTTE CHARLOTTE"~~
 
-"I dare you whisper a moderator a swear word."
+~~"I dare you whisper a moderator a swear word."~~
 
-"I dare you tell your crush, or anybody in this room that you love him/her right now"
+~~"I dare you tell your crush, or anybody in this room that you love him/her right now"~~
 
-"I dare you go into EN/EN2 room 1 and spam this message 10 times: I'M FLOODING REPORT ME!"
+~~"I dare you go into EN/EN2 room 1 and spam this message 10 times: I'M FLOODING REPORT ME!"~~
 
-"I dare you report a moderator for hacking"
+~~"I dare you report a moderator for hacking"~~
 
-"I dare you create an account similar to that of an online moderator and use that account to whisper to the online moderator: Hallo buddy!"
+~~"I dare you create an account similar to that of an online moderator and use that account to whisper to the online moderator: Hallo buddy!"~~
 
-"I dare you tell your real life name to everybody in chat"
+~~"I dare you tell your real life name to everybody in chat"~~
 
-"I dare you take a picture of your real life face and send it to everyone to see."
+~~"I dare you take a picture of your real life face and send it to everyone to see."~~
 
 ~~"I dare you go into any #utility room with at least 3 people in it and crash the room."~~
 
