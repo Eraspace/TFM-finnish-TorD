@@ -1,25 +1,17 @@
-## These dares need translation:
+## These bits need translations:
 
-"I dare you complete this map without cheating!"
+- Every game, someone will have the chance to be the Asker. On the first popup as an asker, you can click 'Yes' to randomize a answerer, or 'No' to type a particular person in room. This is similar for almost all other popups, where 'Yes' is for random and 'No' is for typing out yourself. If you are the asker, you can also type '#(number)' to give the question number of the truth/dare in the random list. There are currently... random truths and... random dares, so if you have any feedback feel free to tell me.
 
-"I dare you type 'I LOVE YOU (username)' 30 times to a username in room/tribe in room chat or in tribe chat."
+Created by: Mousetat
 
-"I dare you marry your closest friend, if u are not already married"
+Forum Thread: atelier801.com//topic?f=6&t=814350&p=1
 
-"I dare you give me, the questioner, every snowball you have in your inventory, if you have any."
+Type !commands to see the list of commands
 
-"I dare you whisper a moderator, 'Ban me!'"
+- Welcome to
 
-"I dare you kiss and hug someone in the room of the same gender"
+- About the game
 
-"I dare you spam 'I AM A DUMB COWARD!' 10 times in this room's chat"
+- The moderators are:
 
-"I dare you ask your crush for a date."
-
-"I dare you spam to a moderator, 'HEY <moderator's name>, I'M DAD'"
-
-"I dare you go to a room in EN/EN2 and type 'I WANT WAFFLES' 5 times."
-
-"I dare you go to cafe and create a topic: 'I LOVE UNDERTALE'"
-
-"I dare you go to /room village1 and say to a random person there, 'OMG I LOVE YOU (insert random person's name) FRIEND ME I ALWAYS WANTED TO MEET YOU OMG!!! \*-\*'"
+- You can only !new ONCE (No need to translate the !new)
