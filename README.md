@@ -18,4 +18,6 @@ Thanks alot to:
 - the whole __Terapiaporukka__ group
 
 ### Play testers
-~~None so far~~
+
+- __Aldwin__ [Redmicers]
+- __Ella__ [Swordqueen]
